@@ -1,0 +1,108 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Pane",
+  "colors": {
+    "primary": "#1b6ce5",
+    "light": "#4c8ff0",
+    "dark": "#1557ba"
+  },
+  "favicon": {
+    "light": "/favicon.png",
+    "dark": "/favicon.png"
+  },
+  "icons": {
+    "library": "lucide"
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "index"
+            ]
+          },
+          {
+            "group": "Getting started",
+            "pages": [
+              "guides/getting-started/installing-pane-studio",
+              "guides/getting-started/system-requirements",
+              "guides/getting-started/activating-pane-studio"
+            ]
+          },
+          {
+            "group": "Recording",
+            "pages": [
+              "guides/recording/new-recording",
+              "guides/recording/recording-area",
+              "guides/recording/recording-entire-display",
+              "guides/recording/webcam-microphone"
+            ]
+          },
+          {
+            "group": "Editing project",
+            "pages": [
+              "guides/editing-project/aspect-ratio",
+              "guides/editing-project/cropping",
+              "guides/editing-project/trimming",
+              "guides/editing-project/video-speed"
+            ]
+          }
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Blog",
+          "icon": "newspaper",
+          "href": "https://pane.studio/blog"
+        },
+        {
+          "anchor": "Changelog",
+          "icon": "logs",
+          "href": "https://pane.studio/changelog"
+        }
+      ]
+    }
+  },
+  "logo": {
+    "light": "/logo/pane-wordmark-light.svg",
+    "dark": "/logo/pane-wordmark-dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Website",
+        "href": "https://pane.studio"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Download",
+      "href": "https://pane.studio/download"
+    }
+  },
+  "contextual": {
+    "options": [
+     "copy",
+     "view",
+     "chatgpt",
+     "claude",
+     "perplexity",
+     "mcp",
+     "cursor",
+     "vscode"
+   ]
+  },
+  "footer": {
+    "socials": {
+      "x": "https://www.x.com/pane_studio",
+      "instagram": "https://www.instagram.com/panestudio.app",
+      "discord": "https://discord.gg/96sQgutq"
+    }
+  }
+}
